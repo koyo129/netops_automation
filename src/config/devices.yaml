@@ -1,1 +1,23 @@
+# List of customers devices put in YAML form
+devices:
+  - id: router-01
+    hostname: "127.0.0.1"
+    port: 2222
+    username: "admin"
+    password: "admin123"
+    location: "Tokyo"
+    customer: "LIFTY FACTORY"
+    interfaces:
+      - GigabitEthernet0/0
+      - GigabitEthernet0/1
 
+  - id: router-02
+    hostname: "127.0.0.1"
+    port: 2222
+    username: "admin"
+    password: "admin123"
+    location: "Osaka"
+    customer: "LIFTY FACTORY"
+    interfaces:
+      - GigabitEthernet0/0
+      - GigabitEthernet0/2
